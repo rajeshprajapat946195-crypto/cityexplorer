@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Delhi</title>
+ </head>
+
+<Body>
+
+<h1>delhi famous places</h1>                 
+  
+<img
+src="https://source.unsplash.com/800x500/?red-fort"
+Width="100%">
+<p>red fort </p>
+
+<img
+src="https://source.unsplash.com/800x500/?india-gate"
+  width="100%">
+<p>India gate</p>
+
+  </Body>
+  </html>
+  
