@@ -1,40 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>city Explorer</title> 
-<style> 
-body{text-align:center;font:Arial
-input{padding;10px;width;200px;}
-button{padding;10px;background:blue;color;}
-</style>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
+<body>
 
-<body> 
-<h1>city Explorer</h1>
-<p>Ente ryour city name</p>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>This is my first HTML page</p>
+    </header>
 
-<input type="text"id="city">  
-button onclick="searchcity()">search</button
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
 
-<script>  
-Function searchcity(){
- Let( city =
- Document.getElementByld("city").value.toLowerCach();
+    <div class="container">
+        <h2>Main Content</h2>
+        <p>This is a simple example of an HTML page.</p>
 
- If(city=="jaipur"){
-   window.location.href="jaipur.html";
- } 
-  Else If (city=="delhi"){
-    window.location.href="delhi.html";
-  }
-  Else If (city=="rajsthan"){
-    window.location.href="rajsthan.html";
-  }
-}
-</script>
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Hello! You clicked the button.");
+        }
+    </script>
 
 </body>
 </html>
-
- 
- 
